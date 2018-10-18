@@ -1,0 +1,12 @@
+@font-face{
+	src:url(../fonts/andlso.ttf);
+	font-family: index St sanserif;
+}
+h1,h2,h3,h4,h5,h6,p,input,a,button{
+
+	font-family: index St Sanserief !important;
+
+}
+#index-II{
+	background: red;
+}

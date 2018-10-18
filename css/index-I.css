@@ -1,0 +1,117 @@
+ @font-face{
+	src:url(../fonts/andlso.ttf);
+	font-family: Daniel St sanserif;
+}
+h1,h2,h3,h4,h5,h6,p,input,a,button{
+	font-family: Daniel St sanserif !important;
+	    font-size: 22px;
+}
+#index-I{
+	background: url(../img/bespoke5.jpg);/*linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 10%);*/
+	height: 800px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	color: #FFF;
+	  background-color: #cccccc;
+
+
+}
+ .navbar-default{
+	background-color: white;
+	border:none;
+}
+./*nav{
+	    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 66px;
+
+}*/
+.bespoke1{
+	height: 400px;
+	margin-top: 50px;
+	width: 900px;
+    margin-left: 20px;
+    line-height: 30px;
+
+}
+.well{
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.20);
+        width: 407px;
+    margin-left: 116px;;
+
+}
+.text-center{
+	margin-top: 50px; 
+}
+.flat{
+
+	height: 30px;
+	margin-top: 20px;
+}
+.bespoken{
+	font-size: 40px;
+	color: red;
+	font-style: italic;
+	src: url(../fonts/Quicksand-medium.ttf);
+	font-family: impact;
+}
+bespoken{
+	font-family: impact;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: -45px;
+    margin-right: 274px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}                                 
+        
+     
+  .og{
+  	width: 417px;
+  	height: 366px;
+  	margin-top: 50px;
+  }
+  .jane{
+  	color: red;
+  }
+  .m{
+  	    width: 448px;
+    margin-left: -32px;
+  }
+  .n{
+  	margin-top: 2px;
+  	width: 452px;
+    margin-left: 79px;
+  }
+  .o{
+  	width: 452px;
+  	margin-left: -34px;
+  	height: 658px;
+  }
+  .p{
+  	margin-left: -32px;
+  	margin-top: 121px;
+  }
+  .foot{
+  	height: 700px;
+  	background-color: black; 
+  	
+
+  }
+  .o{
+
+  	background-color: black;
+  	width: 1368px;
+  }
