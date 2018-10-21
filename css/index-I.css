@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6,p,input,a,button{
 	    font-size: 22px;
 }
 #index-I{
-	background: url(../img/bespoke5.jpg);/*linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 10%);*/
+	background: url(../img/bespoke.jpeg);/*linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 10%);*/
 	height: 800px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -104,7 +104,7 @@ bespoken{
   	margin-left: -32px;
   	margin-top: 121px;
   }
-  .foot{
+  .foot{  
   	height: 700px;
   	background-color: black; 
   	
@@ -114,4 +114,10 @@ bespoken{
 
   	background-color: black;
   	width: 1368px;
+  }
+  @media  screen  and  (max-width: 959px;){
+
+    #index{
+      width: 100%;
+    }
   }

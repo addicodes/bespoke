@@ -22,12 +22,19 @@
    <meta name="twitter:title" content="adeola"/>
     <meta name="twitter:site" content="@addy_dev"/>
      <meta name="twitter:domain" content=""/>
-    <script type="text/javascript">
-	function myFunction(){
-		document.getElementByid("demo").innerHTML ="paragraph changed";}
+   <script  src="js/jquery.js"></script>
+	<script type="text/javascript">
+     $(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+   
     </script>
 
-	
 </head>
 <body>
 	<header id="index-I">
@@ -35,12 +42,20 @@
 			<div class="text-center">
 				<h4 class="bespoken">Bespoke</h4>
 			</div>
-			<div class="nav navbar-nav navbar-left">
-				 <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<div>
+				 <button id=" show"class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="margin-right: 50px;">
 				        <span class="icon icon-bar"></span>
 				        <span class="icon icon-bar"></span>
 				        <span class="icon icon-bar"></span>
 				      </button>
+                      <p id="hide">
+                         <li><a href="#"class="smoothScrol read-article" id="read-article">What's New</a></li>
+                    <li><a href="#" class="smoothScrol read-article" id="read-article">About Us</a></li>
+                    <li><a href="#" class="smoothScrol read-article" id="read-article">Lifestyle</a></li>
+                    <li><a href="#" class="smoothScrol read-article" id="read-article">Recent Posts</a></li>
+                    <li><a href="#" class="smoothScrol read-article" id="read-article">Features</a></li>
+                    <li><a href="#" class="smoothScrol read-article" id="read-article">Blog</a></li>  
+                      </p>
 				<ul>
 
 					<div>
